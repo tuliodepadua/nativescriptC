@@ -6,6 +6,9 @@ class Message {
   get created() {
     return this._created;
   }
+
+
+  
   set created(created) {
       if (!created || isNaN(created)){
           throw new Error('Invalid Created');
